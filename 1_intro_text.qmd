@@ -1,6 +1,6 @@
 # イントロダクション
 
-[スライド](https://tomo-sakuma.github.io/mgt-acct/2023mgt-acct-slides/1_イントロダクション.html){target="_blank"}
+[スライド](https://tomo-sakuma.github.io/mgt-acct/2023mgt-acct-slides/1_イントロ.html){target="_blank"}
 
 ## 管理会計とは
 
