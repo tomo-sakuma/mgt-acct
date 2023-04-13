@@ -32,3 +32,5 @@ format:
     navigation-mode: vertical
 
 editor: visual
+bibliography: references.bib
+csl: the-accounting-review.csl
