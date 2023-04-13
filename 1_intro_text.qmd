@@ -1,5 +1,7 @@
 # イントロダクション
 
+[スライド](https://tomo-sakuma.github.io/mgt-acct/2023mgt-acct-slides/1_イントロダクション.html){target="_blank"}
+
 ## 管理会計とは
 
 -   管理と会計

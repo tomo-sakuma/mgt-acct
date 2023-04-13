@@ -24,8 +24,7 @@ format:
     fig-cap-location: bottom
     tbl-cap-location: top
     embed-resources: false
-    chalkboard:
-      buttons: true
+    chalkboard: true
     number-sections: true
     number-depth: 2
     toc: true
