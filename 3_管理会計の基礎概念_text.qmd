@@ -2,6 +2,8 @@
 title: "管理会計の基礎概念"
 ---
 
+[スライド](https://tomo-sakuma.github.io/mgt-acct/2023mgt-acct-slides/3_管理会計の基礎概念.html)
+
 ## Case
 
 High fixed costs bankrupt Aéropostale [@datar2021]
@@ -28,7 +30,7 @@ High fixed costs bankrupt Aéropostale [@datar2021]
 \
 
 |                  |                                                                    |
-|------------------|------------------------------------------------------|
+|-------------------|-----------------------------------------------------|
 | **原価計算対象** | **例**                                                             |
 | 製品             | Tesla model3                                                       |
 | サービス         | テスラストアに情報提供を行うホットラインサービス                   |

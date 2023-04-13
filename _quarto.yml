@@ -33,11 +33,8 @@ format:
     logo: 10_set_en_clearback.png
     embed-resources: false
     code-fold: show
-
   pdf:
     documentclass: scrreprt
-
-
 editor: visual
 bibliography: references.bib
 csl: the-accounting-review.csl
