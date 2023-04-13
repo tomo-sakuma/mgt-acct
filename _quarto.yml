@@ -6,45 +6,38 @@ book:
   title: "管理会計"
   author: 
   - name: "佐久間 智広" 
-    affiliation: "GSBA, Kobe University"
+    affiliation: "神戸大学大学院経営学研究科"
     email: "sakuma@port.kobe-u.ac.jp"
   date: today
+  date-format: YYYY/MM/DD
   cover-image: logo_long.png
   chapters:
     - index.qmd
-    - intro.qmd
-    - summary.qmd
+    - 1_intro_text.qmd
+    - 2_管理会計の意義_text.qmd
+    - 3_管理会計の基礎概念_text.qmd
+    - 4_意思決定アプローチの方法_text.qmd
     - references.qmd
 
-bibliography: references.bib
 
 subtitle: "2023年度　管理会計"
 format:
   html:
-    theme: cosmo
+    theme: [cosmo,fonts.scss]
+    toc: true     
+    toc-title: Contents
+    toc-depth: 2
+    number-sections: true
+    number-depth: 3
+    title-block-banner: false
+    logo: 10_set_en_clearback.png
+    embed-resources: false
+    code-fold: show
+
   pdf:
     documentclass: scrreprt
-  revealjs:
-    width: 1280
-    height: 1024
-    slide-number: true
-    preview-links: auto
-    logo: kobe.png
-    css: styles.css
-    footer: "2023管理会計"
-    smaller: false
-    scrollable: true
-    theme: [white,fonts.scss]
-    fig-cap-location: bottom
-    tbl-cap-location: top
-    embed-resources: false
-    chalkboard:
-      buttons: true
-    number-sections: true
-    number-depth: 2
-    toc: true
-    toc-depth: 1
-    navigation-mode: vertical
+
 
 editor: visual
-
+bibliography: references.bib
+csl: the-accounting-review.csl

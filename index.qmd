@@ -1,11 +1,3 @@
-# Preface {.unnumbered}
+# 2023年度管理会計 {.unnumbered}
 
-This is a Quarto book.
-
-To learn more about Quarto books visit <https://quarto.org/docs/books>.
-
-```{r}
-1 + 1
-```
-
-![](images/Hamilton-poster.jpg)
+2023年度の授業資料です。各回のページにWebページ形式の資料と授業で使うスライド資料が入っています（もしくはこれから入れます。）
