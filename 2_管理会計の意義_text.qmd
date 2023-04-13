@@ -2,6 +2,8 @@
 title: "管理会計の意義"
 ---
 
+[スライド](https://tomo-sakuma.github.io/mgt-acct/2023mgt-acct-slides/2_管理会計の意義.html){target="_blank"}
+
 ## Case
 
 @merchant2017 [pp. 22-23]
