@@ -1,0 +1,34 @@
+---
+title: "イントロダクション"
+author: "佐久間智広"
+date: today
+date-format: YYYY/MM/DD
+format: 
+  revealjs:
+    width: 1280
+    height: 800
+    slide-number: true
+    preview-links: auto
+    logo: kobe.png
+    css: logo.css
+    footer: "ゼミ"
+    smaller: false
+    scrollable: true
+    theme: [white,fonts.scss]
+    fig-cap-location: bottom
+    tbl-cap-location: top
+    embed-resources: false
+    chalkboard:
+      buttons: true
+    number-sections: true
+    number-depth: 2
+    toc: true
+    toc-depth: 1
+    navigation-mode: vertical
+  pptx:
+    slide-number: true
+editor: visual
+bibliography: references.bib
+csl: the-accounting-review.csl
+include-after-body: header.html
+---
