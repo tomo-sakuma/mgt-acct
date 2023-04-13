@@ -2,13 +2,13 @@
 title: "管理会計の基礎概念"
 ---
 
-[スライド](https://tomo-sakuma.github.io/mgt-acct/2023mgt-acct-slides/3_管理会計の基礎概念.html)
+[スライド](https://tomo-sakuma.github.io/mgt-acct/2023mgt-acct-slides/3_管理会計の基礎概念.html){target="_blank"}
 
 ## Case
 
 High fixed costs bankrupt Aéropostale [@datar2021]
 
-![Aéropostale (clothing). (2023, March 4). In Wikipedia.](images/Ae%CC%81ropostaleMarkville.jpg){alt="Aéropostale (clothing). (2023, March 4). In Wikipedia." width="1510"}
+![Aéropostale (clothing). (2023, March 4). In Wikipedia.](images/AeropostaleMarkville.jpg){alt="Aéropostale (clothing). (2023, March 4). In Wikipedia."}
 
 -   2015年，アメリカの10代向けアパレルブランドのAéropostaleが破産した。固定費，つまりパーカーやTシャツの販売量がいくら減っても減らない原価が原因だったとされる。
 -   90年代から00年代にかけて，Aéropostaleは数多くのモールに出店し，10代から支持を集めた。この時期，企業は急速に拡大し，世界に800店舗を出店した。また，この時期の拡大により企業は多額の負債を抱える。
@@ -30,7 +30,7 @@ High fixed costs bankrupt Aéropostale [@datar2021]
 \
 
 |                  |                                                                    |
-|-------------------|-----------------------------------------------------|
+|--------------------|----------------------------------------------------|
 | **原価計算対象** | **例**                                                             |
 | 製品             | Tesla model3                                                       |
 | サービス         | テスラストアに情報提供を行うホットラインサービス                   |

@@ -6,7 +6,7 @@ title: "3 管理会計の基礎概念"
 
 High fixed costs bankrupt Aéropostale [@datar2021]
 
-![Aéropostale (clothing). (2023, March 4). In Wikipedia.](images/Ae%CC%81ropostaleMarkville.jpg){alt="Aéropostale (clothing). (2023, March 4). In Wikipedia." width="1510"}
+![Aéropostale (clothing). (2023, March 4). In Wikipedia.](images/AeropostaleMarkville.jpg){alt="Aéropostale (clothing). (2023, March 4). In Wikipedia."}
 
 ------------------------------------------------------------------------
 
@@ -40,7 +40,7 @@ High fixed costs bankrupt Aéropostale [@datar2021]
 \
 
 |                  |                                                                    |
-|------------------|--------------------------------------------------------------------|
+|-----------------|-------------------------------------------------------|
 | **原価計算対象** | **例**                                                             |
 | 製品             | Tesla model3                                                       |
 | サービス         | テスラストアに情報提供を行うホットラインサービス                   |
