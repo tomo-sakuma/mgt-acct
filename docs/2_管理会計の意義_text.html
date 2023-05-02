@@ -56,10 +56,12 @@ div.csl-indent {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -103,6 +105,9 @@ div.csl-indent {
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./">管理会計</a> 
+        <div class="sidebar-tools-main">
+  <a href="" class="quarto-color-scheme-toggle sidebar-tool" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
     </div>
       </div>
       <div class="mt-2 flex-shrink-0 align-items-center">
@@ -256,6 +261,8 @@ div.csl-indent {
 <li>顧客満足度</li>
 <li>従業員満足度</li>
 <li>研修参加率</li>
+<li>現場の観察</li>
+<li>面談</li>
 </ul>
 </section>
 </div>
@@ -275,8 +282,8 @@ div.csl-indent {
 </section>
 <div class="columns">
 <div class="column" style="width:45%;">
-<section id="従業員の行動に影響を与える" class="level4" style="color: DarkRed;">
-<h4 style="color: DarkRed;" class="anchored" data-anchor-id="従業員の行動に影響を与える">従業員の行動に影響を与える</h4>
+<section id="従業員の行動に影響を与える" class="level4">
+<h4 class="anchored" data-anchor-id="従業員の行動に影響を与える"><font color="DarkRed">従業員の行動に影響を与える </font></h4>
 <p>業績評価アプローチ<br>
 （意思決定影響機能・影響システム）</p>
 <ul>
@@ -292,11 +299,13 @@ div.csl-indent {
 </div><div class="column" style="width:7%;">
 
 </div><div class="column" style="width:45%;">
-<section id="意思決定に役立てる" class="level4" style="color: DarkRed;">
-<h4 style="color: DarkRed;" class="anchored" data-anchor-id="意思決定に役立てる">意思決定に役立てる</h4>
+<section id="意思決定に役立てる" class="level4">
+<h4 class="anchored" data-anchor-id="意思決定に役立てる"><font color="DarkRed">意思決定に役立てる </font></h4>
 <p>意思決定アプローチ<br>
 （意思決定支援機能・情報システム）</p>
 <ul>
+<li>部下に追加の指示を出す？それともそのまま任せる？</li>
+<li>原価変動を調査する？それとも現状維持？</li>
 <li>新規事業AとBどちらに参入する？</li>
 <li>新しい工場・設備を導入する？</li>
 <li>自社で作る？外注する？</li>
@@ -370,6 +379,36 @@ div.csl-indent {
 <li>現状の把握のための学力試験（意思決定支援）のはずが</li>
 <li>教員たちは対策に追われる（意思決定影響）</li>
 </ul>
+</section>
+<section id="例4大学の授業での出席管理" class="level4">
+<h4 class="anchored" data-anchor-id="例4大学の授業での出席管理">例4：大学の授業での出席管理</h4>
+<section id="背景" class="level5">
+<h5 class="anchored" data-anchor-id="背景">背景</h5>
+<ul>
+<li>（オンライン講義が導入される前）基本的に授業資料は紙で印刷しての配布が好まれていた。</li>
+<li>教員は毎回余って廃棄される資料の処理が面倒く…環境に悪いと思っていた</li>
+</ul>
+</section>
+<section id="測定" class="level5">
+<h5 class="anchored" data-anchor-id="測定">測定</h5>
+<ul>
+<li>配布資料の適切な印刷枚数を把握するため，出席を取ることにした。
+<ul>
+<li>いつも同じメンバーが来ていないのか，それとも出席したりしなかったりという人がたくさんいるのか</li>
+</ul></li>
+<li>シラバスには出席点は設定されておらず，成績には関係がない。</li>
+</ul>
+</section>
+<section id="結果" class="level5">
+<h5 class="anchored" data-anchor-id="結果">結果</h5>
+<ul>
+<li>欠席者の半数程度はいつも来ていない人だった（その人たちの分は印刷しなくても良い）</li>
+<li>出席状況が良くなった
+<ul>
+<li>？</li>
+</ul></li>
+</ul>
+</section>
 </section>
 </section>
 <section id="まとめ" class="level3" data-number="2.2.3">
@@ -480,9 +519,13 @@ div.csl-indent {
 <li>期間利益をより正確に計算する</li>
 <li>この目的を達するために会計基準が整備されている</li>
 </ul></li>
-<li>この財務会計目的で作られた数値に引っ張られて判断がゆがむことがある
+<li>この財務会計目的で作られた数値に引っ張られて判断がゆがむことがある（管理会計の有用性の喪失 <span class="citation" data-cites="johnson1987a johnson1992">(<a href="references.html#ref-johnson1987a" role="doc-biblioref">Johnson and Kaplan 1987</a>; <a href="references.html#ref-johnson1992" role="doc-biblioref">Johnson et al. 1992</a>)</span>）
 <ul>
-<li>管理会計の有用性の喪失 <span class="citation" data-cites="johnson1987a johnson1992">(<a href="references.html#ref-johnson1987a" role="doc-biblioref">Johnson and Kaplan 1987</a>; <a href="references.html#ref-johnson1992" role="doc-biblioref">Johnson et al. 1992</a>)</span></li>
+<li>経営管理のためには，
+<ul>
+<li><p>ある期間で区切らない方がいいかもしれない</p></li>
+<li><p>過去の出来事を正確に把握する数値よりも，不正確でも将来予測に関する情報が入った数値のほうがいいかもしれない</p></li>
+</ul></li>
 </ul></li>
 </ul>
 </section>
@@ -565,6 +608,121 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  let localAlternateSentinel = 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } else {
+    toggleColorMode(false);
+  }
   const icon = "";
   const anchorJS = new window.AnchorJS();
   anchorJS.options = {

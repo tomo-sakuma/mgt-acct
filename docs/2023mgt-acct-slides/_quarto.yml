@@ -3,7 +3,7 @@ project:
 
 author: 
   - name: "佐久間 智広"
-    affiliation: "Kobe University"
+    affiliation: "神戸大学大学院経営学研究科"
     email: "sakuma@port.kobe-u.ac.jp"
 date: 2023/04/11
 date-format: YYYY/MM/DD
@@ -20,7 +20,7 @@ format:
     footer: "2023管理会計"
     smaller: false
     scrollable: true
-    theme: [white,fonts.scss]
+    theme: [solarized,fonts.scss]
     fig-cap-location: bottom
     tbl-cap-location: top
     embed-resources: false
@@ -30,6 +30,7 @@ format:
     toc: true
     toc-depth: 1
     navigation-mode: vertical
+    pdf-separate-fragments: true
 
 editor: visual
 bibliography: references.bib

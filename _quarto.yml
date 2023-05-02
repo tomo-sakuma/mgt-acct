@@ -23,16 +23,19 @@ book:
 subtitle: "2023年度　管理会計"
 format:
   html:
-    theme: [cosmo,fonts.scss]
+    theme:
+      light: [flatly,fonts.scss]
+      dark: [darkly,fonts.scss]
     toc: true     
     toc-title: Contents
     toc-depth: 2
     number-sections: true
     number-depth: 3
     title-block-banner: false
-    logo: 10_set_en_clearback.png
+    logo: kobe.png
     embed-resources: false
     code-fold: show
+    pdf-separate-fragments: true
   pdf:
     documentclass: scrreprt
 editor: visual

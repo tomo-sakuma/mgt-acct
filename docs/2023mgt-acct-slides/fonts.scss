@@ -5,10 +5,12 @@
 // fonts
 $font-family-sans-serif: 'Figtree','IBM Plex Sans','LINE Seed JP_OTF','IBM Plex Sans JP', sans-serif !default;
 $font-family-monospace: 'JetBrains Mono', monospace !default;
-
+$presentation-heading-font: $font-family-sans-serif;
 $presentation-font-size-root: 32px;
 $body-color:#1A5C71;
 $link-color: #1b89ab;
+$presentation-heading-color: $body-color;
+$presentation-heading-text-transform: none;
 $presentation-h1-font-size: 2em;
 $presentation-h2-font-size: 1.6em;
 $presentation-h3-font-size: 1.2em;
