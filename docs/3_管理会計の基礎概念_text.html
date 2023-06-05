@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.475">
+<meta name="generator" content="quarto-1.3.353">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -17,14 +17,15 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for citations */
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
 }
-.hanging div.csl-entry {
+.hanging-indent div.csl-entry {
   margin-left:2em;
   text-indent:-2em;
 }
@@ -38,8 +39,7 @@ div.csl-right-inline {
 }
 div.csl-indent {
   margin-left: 2em;
-}
-</style>
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -82,6 +82,7 @@ div.csl-indent {
   }
 }</script>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 </head>
@@ -90,11 +91,16 @@ div.csl-indent {
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-    <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">管理会計の基礎概念</span></h1>
-      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
-        <i class="bi bi-chevron-right"></i>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./3_管理会計の基礎概念_text.html"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">管理会計の基礎概念</span></a></li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
       </button>
     </div>
   </nav>
@@ -102,70 +108,96 @@ div.csl-indent {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./">管理会計</a> 
         <div class="sidebar-tools-main">
-  <a href="" class="quarto-color-scheme-toggle sidebar-tool" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
     </div>
       </div>
-      <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="mt-2 flex-shrink-0 align-items-center">
         <div class="sidebar-search">
         <div id="quarto-search" class="" title="Search"></div>
         </div>
-      </div>
+        </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link">2023年度管理会計</a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2023年度管理会計</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./1_intro_text.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">イントロダクション</span></a>
+  <a href="./1_intro_text.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">イントロダクション</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./2_管理会計の意義_text.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">管理会計の意義</span></a>
+  <a href="./2_管理会計の意義_text.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">管理会計の意義</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./3_管理会計の基礎概念_text.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">管理会計の基礎概念</span></a>
+  <a href="./3_管理会計の基礎概念_text.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">管理会計の基礎概念</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./4_意思決定_text.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">意思決定アプローチの方法</span></a>
+  <a href="./4_意思決定_text.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">意思決定アプローチの方法</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./5_業績管理_text.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">業績管理アプローチの方法</span></a>
+  <a href="./5_業績管理_text.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">業績管理アプローチの方法</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./references.html" class="sidebar-item-text sidebar-link">References</a>
+  <a href="./6_原価管理_text.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">6 原価管理</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./7_長期経営計画_text.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">経営戦略と長期経営計画</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./8_利益計画・予算管理1.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">利益計画・予算管理</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./references.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">References</span></a>
   </div>
 </li>
     </ul>
     </div>
 </nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">Contents</h2>
    
   <ul class="collapse">
-  <li><a href="#case" id="toc-case" class="nav-link active" data-scroll-target="#case"><span class="toc-section-number">3.1</span>  Case</a></li>
-  <li><a href="#原価とは" id="toc-原価とは" class="nav-link" data-scroll-target="#原価とは"><span class="toc-section-number">3.2</span>  原価とは</a></li>
-  <li><a href="#原価の分類" id="toc-原価の分類" class="nav-link" data-scroll-target="#原価の分類"><span class="toc-section-number">3.3</span>  原価の分類</a></li>
-  <li><a href="#制度上の原価概念" id="toc-制度上の原価概念" class="nav-link" data-scroll-target="#制度上の原価概念"><span class="toc-section-number">3.4</span>  制度上の原価概念</a></li>
+  <li><a href="#case" id="toc-case" class="nav-link active" data-scroll-target="#case"><span class="header-section-number">3.1</span> Case</a></li>
+  <li><a href="#原価とは" id="toc-原価とは" class="nav-link" data-scroll-target="#原価とは"><span class="header-section-number">3.2</span> 原価とは</a></li>
+  <li><a href="#原価の分類" id="toc-原価の分類" class="nav-link" data-scroll-target="#原価の分類"><span class="header-section-number">3.3</span> 原価の分類</a></li>
+  <li><a href="#制度上の原価概念" id="toc-制度上の原価概念" class="nav-link" data-scroll-target="#制度上の原価概念"><span class="header-section-number">3.4</span> 制度上の原価概念</a></li>
   </ul>
 </nav>
     </div>
@@ -174,7 +206,7 @@ div.csl-indent {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">管理会計の基礎概念</span></h1>
+<h1 class="title"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">管理会計の基礎概念</span></h1>
 <p class="subtitle lead">2023年度　管理会計</p>
 </div>
 
@@ -193,11 +225,11 @@ div.csl-indent {
 <p><a href="https://tomo-sakuma.github.io/mgt-acct/2023mgt-acct-slides/3_管理会計の基礎概念.html" target="_blank">スライド</a></p>
 <section id="case" class="level2" data-number="3.1">
 <h2 data-number="3.1" class="anchored" data-anchor-id="case"><span class="header-section-number">3.1</span> Case</h2>
-<p>High fixed costs bankrupt Aéropostale <span class="citation" data-cites="datar2021">(<a href="references.html#ref-datar2021" role="doc-biblioref">Datar et al. 2021</a>)</span></p>
+<p>High fixed costs bankrupt Aéropostale <span class="citation" data-cites="datar2021">(<a href="references.html#ref-datar2021" role="doc-biblioref">Datar, Rajan, and Horngren 2021</a>)</span></p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="images/AeropostaleMarkville.jpg" class="img-fluid figure-img" alt="Aéropostale (clothing). (2023, March 4). In Wikipedia."></p>
-<p></p><figcaption class="figure-caption">Aéropostale (clothing). (2023, March 4). In Wikipedia.</figcaption><p></p>
+<p><img src="images/AeropostaleMarkville.jpg" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Aéropostale (clothing). (2023, March 4). In Wikipedia.</figcaption>
 </figure>
 </div>
 <ul>
@@ -218,7 +250,7 @@ div.csl-indent {
 <div class="quarto-figure quarto-figure-right">
 <figure class="figure">
 <p><a href="Photo by https://www.pexels.com/photo/white-tesla-driving-on-the-road-11139552/"><img src="images/pexels-matt-weissinger-11139552.jpg" class="img-fluid figure-img" width="600"></a></p>
-<p></p><figcaption class="figure-caption">Photo by Matt Weissinger</figcaption><p></p>
+<figcaption class="figure-caption">Photo by Matt Weissinger</figcaption>
 </figure>
 </div>
 <p>原価計算対象（cost object）：原価測定が求められる何か</p>
@@ -397,7 +429,7 @@ div.csl-indent {
 <p>managed capacity costは，その特性から，経営上重要な意味を持つ（経営者の能力や裁量が短期・長期的な企業業績を左右しうる）</p>
 <ul>
 <li>インプットとアウトプットの関係が不明瞭。検証が難しいので効果が簡単には分からない <span class="citation" data-cites="ghosh2000">(<a href="references.html#ref-ghosh2000" role="doc-biblioref">Ghosh and Lusch 2000</a>)</span></li>
-<li>タイムラグが存在。人間はタイムラグのある関係を認識するのが難しい <span class="citation" data-cites="buehner2003 vera-muñoz2007">(<a href="references.html#ref-buehner2003" role="doc-biblioref">Buehner and May 2003</a>; <a href="references.html#ref-vera-muñoz2007" role="doc-biblioref">Vera-Muñoz et al. 2007</a>)</span></li>
+<li>タイムラグが存在。人間はタイムラグのある関係を認識するのが難しい <span class="citation" data-cites="buehner2003 vera-muñoz2007">(<a href="references.html#ref-buehner2003" role="doc-biblioref">Buehner and May 2003</a>; <a href="references.html#ref-vera-muñoz2007" role="doc-biblioref">Vera-Muñoz, Shackell, and Buehner 2007</a>)</span></li>
 <li>一旦キャパシティが構築されると効果が持続する（ブランドイメージが確立したらその効果は継続する）<span class="citation" data-cites="lev2001">(<a href="references.html#ref-lev2001" role="doc-biblioref">Lev 2001</a>)</span></li>
 </ul>
 </section>
@@ -425,7 +457,7 @@ div.csl-indent {
 <p>予定消費価格×予定消費量</p>
 </dd>
 </dl>
-<div class="callout-note callout callout-style-simple">
+<div class="callout callout-style-simple callout-note">
 <div class="callout-body d-flex">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
@@ -473,20 +505,20 @@ div.csl-indent {
 <p>財務会計目的では全部原価計算が求められるが，経営上の判断には，部分原価の方が適している場合もある（次回やります）</p>
 
 
-<div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography" style="display: none">
-<div id="ref-buehner2003" class="csl-entry" role="doc-biblioentry">
+<div id="refs" class="references csl-bib-body hanging-indent" role="list" style="display: none">
+<div id="ref-buehner2003" class="csl-entry" role="listitem">
 Buehner, M. J., and J. May. 2003. <a href="https://doi.org/10.1080/02724980244000675">Rethinking temporal contiguity and the judgement of causality: Effects of prior knowledge, experience, and reinforcement procedure</a>. <em>The Quarterly Journal of Experimental Psychology Section A</em> 56 (5): 865890.
 </div>
-<div id="ref-datar2021" class="csl-entry" role="doc-biblioentry">
+<div id="ref-datar2021" class="csl-entry" role="listitem">
 Datar, S. M., M. V. Rajan, and C. T. Horngren. 2021. <em>Horngren’s cost accounting : A managerial emphasis</em>. 17th ed., global ed. Essex: Pearson.
 </div>
-<div id="ref-ghosh2000" class="csl-entry" role="doc-biblioentry">
+<div id="ref-ghosh2000" class="csl-entry" role="listitem">
 Ghosh, D., and R. F. Lusch. 2000. <a href="http://dx.doi.org/10.1016/S0361-3682(99)00045-8">Outcome effect, controllability and performance evaluation of managers: Some field evidence from multi-outlet businesses</a>. <em>Accounting, Organizations and Society</em> 25: 411425.
 </div>
-<div id="ref-lev2001" class="csl-entry" role="doc-biblioentry">
+<div id="ref-lev2001" class="csl-entry" role="listitem">
 Lev, B. 2001. <em><a href="http://op.lib.kobe-u.ac.jp/opac/opac_details.cgi?lang=0&amp;bibid=2001377320&amp;amode=11">Intangibles: Management, measurement, and reporting</a></em>. Washington, D.C.: Brookings Institution Press.
 </div>
-<div id="ref-vera-muñoz2007" class="csl-entry" role="doc-biblioentry">
+<div id="ref-vera-muñoz2007" class="csl-entry" role="listitem">
 Vera-Muñoz, S. C., M. Shackell, and M. Buehner. 2007. <a href="https://doi.org/10.1506/car.24.3.12">Accountants’ usage of causal business models in the presence of benchmark data: A note</a>. <em>Contemporary Accounting Research</em> 24: 10151038.
 </div>
 </div>
@@ -636,9 +668,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -703,6 +749,92 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
   const findCites = (el) => {
     const parentEl = el.parentElement;
     if (parentEl) {

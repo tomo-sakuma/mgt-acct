@@ -20,6 +20,7 @@ book:
     - 5_業績管理_text.qmd
     - 6_原価管理_text.qmd
     - 7_長期経営計画_text.qmd
+    - 8_利益計画・予算管理1.qmd
     - references.qmd
 
 
@@ -43,4 +44,4 @@ format:
     documentclass: scrreprt
 editor: visual
 bibliography: references.bib
-csl: the-accounting-review.csl
+csl: https://www.zotero.org/styles/the-accounting-review
